@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit:wght@400;700&display=swap");
+
+/*resetar elementos que vem por padrão*/
+* {
+  margin: 0; /*margim espaçamento externo do elemento*/
+  padding: 0; /*espaçamento interno do elemento*/
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color:hsl(212, 45%, 89%);
+  min-height: 100vh; 
+  display:flex; 
+  align-items: center; /*alinhar verticalmente, no centro*/
+  font-size: 15px;
+}
+
+.container {
+  max-width:350px;
+  margin: 0 auto; /*centralizar o elemento no meio da tela*/
+}
+
+.card {
+  background-color: #fff;
+  padding: 18px; 
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.card img {
+  width: 100%; /*tamanho da imagem por padrão não se faz isso, apenas quando temos apenas uma imagem*/
+  border-radius: 12px; /*arredondar as bordas da imagem*/
+}
+
+.text {
+  padding: 22px 10px; /*espaçamento interno do elemento*/
+}
+
+.text h2 {
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 15px; /*espaçamento entre o título e o texto*/
+}
+
+.text{
+color: hsl(216, 15%, 48%);
+}
