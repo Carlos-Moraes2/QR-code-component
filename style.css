@@ -17,7 +17,7 @@ body {
 
 .container {
   max-width:350px;
-  margin: 0 auto; /*centralizar o elemento no meio da tela*/
+  margin: 0 auto; /*centralizar horizontalmente*/
 }
 
 .card {
